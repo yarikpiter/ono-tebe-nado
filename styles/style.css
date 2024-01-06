@@ -44,10 +44,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: auto;
   min-height: 757px;
   position: relative;
-  z-index: -1;
 }
 
 .cover__title {
@@ -122,13 +120,13 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  padding-right: 265px;
+  padding-right: 60px;
 }
 
 .bet-button {
   color: #ffffff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -137,12 +135,13 @@
   border: 1px solid #ffffff;
   width: 257px;
   height: 52px;
+  flex-shrink: 0;
   background-color: transparent;
 }
 
 .lots__heading {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -155,7 +154,6 @@
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   padding-right: 50px;
   padding-left: 50px;
   gap: 25px;
@@ -173,6 +171,8 @@
   min-height: 450px;
   display: flex;
   flex-wrap: wrap;
+  
+  
 }
 
 .card_type_film {
@@ -201,8 +201,8 @@
   text-decoration-line: underline;
   text-transform: uppercase;
   padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .card__text {
